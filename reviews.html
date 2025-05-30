@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Motorbike - Reviews</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #090909;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #1e1e20;
+    }
+
+    .section {
+      padding: 80px 0;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .review-card {
+      background-color: #1e1e20;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.4s ease;
+    }
+
+    .review-card:hover {
+      transform: scale(1.03);
+    }
+
+    .reviewer-name {
+      font-weight: bold;
+      color: #4b5a70;
+    }
+
+    footer {
+      background-color: #1e1e20;
+      padding: 40px 0;
+      text-align: center;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">EcoMotorbike</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="models.html">Models</a></li>
+          <li class="nav-item"><a class="nav-link" href="technology.html">Technology</a></li>
+          <li class="nav-item"><a class="nav-link active" href="reviews.html">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section 1 -->
+  <section class="section" data-aos="zoom-in">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color: #fff;">What Our Riders Say</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="review-card">
+            <p>"The EcoMotorbike is a game changer! I commute daily and haven't paid for gas in months. Smooth, quiet, and efficient."</p>
+            <div class="reviewer-name mt-3"  style="color: #fff;">– Sarah Lopez</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="review-card">
+            <p>"Amazing tech! The smart dashboard keeps me updated, and the build quality feels premium. Love the futuristic design."</p>
+            <div class="reviewer-name mt-3"  style="color: #fff;">– James Nolan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="section bg-dark" data-aos="zoom-in">
+    <div class="container">
+      <h2 class="text-center mb-5">From the Community</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="review-card">
+            <p>"Highly recommended! Great range, impressive battery life, and environmentally friendly. Perfect for city living."</p>
+            <div class="reviewer-name mt-3"  style="color: #fff;">– Priya Desai</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="review-card">
+            <p>"I’ve ridden many bikes, but this one stands out for comfort and eco-innovation. The regenerative braking is genius."</p>
+            <div class="reviewer-name mt-3"  style="color: #fff;">– Marco Tan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EcoMotorbike. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+
+</body>
+</html>
